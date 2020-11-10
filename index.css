@@ -1,0 +1,61 @@
+/* .bigWrapper { */
+    background-color: whitesmoke
+/* } */
+
+.h1div {
+    margin: 400px;
+    width: 80%;
+}
+
+h1 {
+    margin-left: 112px; 
+}
+
+.parentDiv {
+
+    margin: 8px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    box-shadow: 1px 1px lightgray;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+
+.inStock {
+    background-color: white;
+    
+}
+
+.one, .two, .three {
+    flex-basis: 33%;
+    
+    
+} 
+.btn-toggle {
+
+     margin-left: 112px;
+}
+
+body {
+    color: #222;
+    background-color: whitesmoke;
+  }
+  body.dark-theme  {
+    color: white;
+    background: #222;
+  }
+  
+  body.dark-theme .parentDiv{
+      color: white;
+      background-color: #333333 ;
+      border: 1px solid #444444;
+      box-shadow: 1px 1px #444444;
+  }
+
+  body.dark-theme .btn-toggle {
+      background-color: #222;
+      color: white;
+  }
